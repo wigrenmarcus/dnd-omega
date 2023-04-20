@@ -1,0 +1,27 @@
+/* --- Main Grid -------------------------------- */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(32px, auto);
+}
+
+#header {
+    grid-column: 1 / 2;
+}
+
+.desc {
+    grid-column: 2 / -1;
+}
+
+/* --- Icon Grid ---------------------------------- */
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+}
+
+/* --- Media queries ---------------------------- */
+@media only screen and (max-width: 1025px) {
+    #header {
+        grid-column: 1 / -1;
+    }
+}
