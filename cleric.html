@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--google--> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/77b74da7a3.js" crossorigin="anonymous"></script>
+    <title>5e Omega</title>
+    <link rel="icon" type="image/x-icon" href="img/d20.ico">
+</head>
+<body>
+
+<!-- Page Header ------------>
+<div class="container">
+    <h1 id="header">Classes</h1>
+    <p class="desc">Classes for Dungeons & Dragons 5th Edition</p>
+</div>
+
+<header>
+<nav>
+    <div>
+            <a href="index.html"><span>Home</span></a>
+    </div>
+    <div>
+            <a><span>Players </span></a>
+            <div>
+                    <a>Races</a>
+                    <a href="cleric.html">Classes</a>
+                    <a>Background</a>
+                    <a>Feats</a>
+                    <a>Spells</a>
+                    <a>Optional Rules</a>
+            </div>
+    </div>
+    <div>
+            <a><span>Dungeon Master</span></a>
+            <div>
+                    <a>Monster Manual</a>
+                    <a>Items</a>
+                    <a>Conditions</a>
+                    <a>Optional Rules</a>
+                    <a>Tools</a>
+                    <a>World Building</a>
+            </div>
+    </div>
+    <div>
+            <a><span>Other</span></a>
+            <div>
+                    <a>Monsters</a>
+                    <a>Items</a>
+                    <a>Rules</a>
+                    <a>Tools</a>
+            </div>
+    </div>
+</nav>
+</header>
+
+<!-- Page Content ------------>
+<div class="container">
+<!-- navigate classes -->
+    <nav class="class">
+        <ul>
+            <li><b>Choose Class</b></li>
+            <li>
+                <a href="cleric.html"><b>Cleric</b></a>
+            </li>
+            <li>
+                <a href="fighter.html">Fighter</a>
+            </li>
+            <li>
+                <a href="#wizard">Wizard</a>
+            </li>
+        </ul>
+        <img src="img/cleric.jpg" alt="Cleric">
+    </nav>
+<!-- class content -->
+
+    <section class="content">
+<!-- class table -->
+        <table>
+            <tr>
+                <th style="width: 5%;">Level</th>
+                <th style="width: 10%;">Proficiency Bonus</th>
+                <th style="width: 85%;">Features</th>
+            </tr>
+            <tr>
+                <td>1st</td>
+                <td>+2</td>
+                <td><a href="#spellcasting">Spellcasting</a>, <a href="#divine-domain">Divine Domain</a></td>
+            </tr>
+            <tr>
+                <td>2nd</td>
+                <td>+2</td>
+                <td><a href="#channel-divinity">Channel Divinity</a>, <a href="#divine-domain-f1">Divine Domain Feature</a></td>
+            </tr>
+            <tr>
+                <td>3rd</td>
+                <td>+2</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>4th</td>
+                <td>+2</td>
+                <td><a href="#asi">Ability Score Improvment</a></td>
+            </tr>
+            <tr>
+                <td>5th</td>
+                <td>+3</td>
+                <td><a href="#destroy-undead">Destroy Undead</a></td>
+            </tr>
+        </table>
+
+<!-- class features -->
+    <h1 id="spellcasting" class="ch1">Spellcasting</h1>
+    <hr>
+    <p>As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for a selection of cleric spells.</p>
+    <h2 class="ch2">Cantrips</h2>
+    <p>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.</p>
+    <h2 class="ch2">Preparing and Casting Spells</h2>
+    <p>The Cleric table shows how many spell slots you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+        <br><br>
+        You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.
+        <br><br>
+        For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+        <br><br>
+        You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+    <h2 class="ch2">Spellcasting Ability</h2>
+    <p>Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</p>
+    <h2 class="ch2">Ritual Casting</h2>
+    <p>You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+    <h2 class="ch2">Spellcasting Focus</h2>
+    <p>You can use a holy symbol as a spellcasting focus for your cleric spells.</p>
+    <br>
+
+    <h1 id="divine-domain" class="ch1">Divine Domain</h1>
+    <hr>
+    <p>
+        hoose one domain related to your deity from the list of available domains. Each domain is detailed in their own feature, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
+    </p>
+    <br>
+
+    <h1 id="channel-divinity" class="ch1">Channel Divinity</h1>
+    <hr>
+    <p>
+        At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.
+        <br><br>
+        When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.
+        <br><br>
+        Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.
+        <br><br>
+        Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.
+    </p>
+    <br>
+
+    <h1 id="divine-domain-f1" class="ch1">Divine Domain Feature</h1>
+    <hr>
+    <p>
+        At 2nd level, you gain a feature from your Divine Domain.
+    </p>
+    <br>
+
+    <h1 id="asi" class="ch1">Ability Score Improvement</h1>
+    <hr>
+    <p>
+        When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+        <br><br>
+        If your DM allows the use of feats, you may instead take a feat.
+    </p>
+    <br>
+
+    <h1 id="destroy-undead" class="ch1">Destroy Undead</h1>
+    <hr>
+    <p>
+        Starting at 5th level, when an undead of CR 1/2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.
+    </p>
+</section>
+</div>
+
+<!-- Footer ------------------>
+<footer>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#header">Back To Top</a></li>
+        <li><a href="#">FAQ</a></li>
+    </ul>
+    <p class="copyright">D&D Omega @ 2023</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
