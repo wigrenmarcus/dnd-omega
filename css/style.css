@@ -259,6 +259,14 @@ tr:nth-child(even) {
     background-color: #333232;
 }
 
+td a {
+    text-decoration: underline;
+}
+
+td a:hover {
+    color: #cc1b1b;
+}
+
 /* --- Footer ---------------------------------------- */
 footer {
     padding:40px 0;
