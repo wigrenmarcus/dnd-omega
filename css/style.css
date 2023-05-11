@@ -16,6 +16,7 @@ body {
 
 p {
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1 {
@@ -198,6 +199,8 @@ a, .icon-box {
 
 /* --- Class nav ---------------------------------------- */
 .class {
+    display: flex;
+    flex-direction: column;
     padding-top: 32px;
     background-color: #212121;
     color:#4b4c4d;
@@ -231,12 +234,6 @@ a, .icon-box {
 }
 
 /* --- Class img ---------------------------------------- */
-.cimg {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
 img {
     width: 100%;
 }
@@ -330,6 +327,17 @@ footer .copyright {
 
     nav {
         font-size: 0.6em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    nav div {
+        width: 25%;
+    }
+
+    header nav div a  {
+        text-transform: unset;
     }
 
     .icon-header {
